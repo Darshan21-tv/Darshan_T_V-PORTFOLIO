@@ -1,0 +1,10 @@
+<!-- awards.component.html -->
+
+<div class="awards">
+  <h2>Awards</h2>
+  <ul>
+    <li *ngFor="let award of awards">
+      <a href="{{ award.link }}" target="_blank"><i class="fas fa-award"></i> {{ award.title }}</a>
+    </li>
+  </ul>
+</div>

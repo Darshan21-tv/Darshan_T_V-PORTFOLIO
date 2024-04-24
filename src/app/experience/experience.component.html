@@ -1,0 +1,14 @@
+<!-- experience.component.html -->
+
+<div class="experience">
+  <h2>Experience</h2>
+  <ul>
+    <li *ngFor="let exp of experienceDetails">
+      <h3>{{ exp.title }} <i class="fas fa-briefcase"></i></h3>
+      <p>{{ exp.company }} <i class="fas fa-building"></i></p>
+      <ul>
+        <li *ngFor="let responsibility of exp.responsibilities">{{ responsibility }} <i class="fas fa-check"></i></li>
+      </ul>
+    </li>
+  </ul>
+</div>
