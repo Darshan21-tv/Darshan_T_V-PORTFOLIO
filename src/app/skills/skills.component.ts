@@ -21,7 +21,10 @@ export class SkillsComponent implements OnInit {
     { name: "Java", rating: "★★☆☆" },
     { name: "GitHub", rating: "★★☆☆" },
     { name: "Git", rating: "★★☆☆" },
-    { name: "JDBC", rating: "★★☆☆" }
+    { name: "JDBC", rating: "★★☆☆" },
+    { name: "MAVEN", rating: "★★☆☆" },
+    { name: "SERVLET", rating: "★★☆☆" },
+    { name: "JSP", rating: "★★☆☆" },
   ];
 
   languageSkills: any[] = [
