@@ -20,7 +20,8 @@ export class SkillsComponent implements OnInit {
     { name: "WordPress", rating: "★★★☆" },
     { name: "Java", rating: "★★☆☆" },
     { name: "GitHub", rating: "★★☆☆" },
-    { name: "Git", rating: "★★☆☆" }
+    { name: "Git", rating: "★★☆☆" },
+    { name: "JDBC", rating: "★★☆☆" }
   ];
 
   languageSkills: any[] = [
